@@ -1,5 +1,9 @@
 # 🌐 Worldwide Rapid Express — Global Freight Tracking, Logistics Dispatch & Shipment Portal
 
+<p align="center">
+  <img src="assets/branding/logo.png" alt="Worldwide Rapid Express Logo" width="180" style="border-radius: 20px; box-shadow: 0 8px 32px rgba(37, 99, 235, 0.25);" />
+</p>
+
 [![Production Website](https://img.shields.io/badge/Production_Website-Live-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://worldwiderapidexpress.com)
 [![PHP](https://img.shields.io/badge/PHP-8.x_Backend-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org)
