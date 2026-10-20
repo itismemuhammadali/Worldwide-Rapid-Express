@@ -1,133 +1,53 @@
-# Courier Services Portal
+# 🌐 Worldwide Rapid Express — Global Freight Tracking, Logistics Dispatch & Shipment Portal
 
-A comprehensive web-based courier and logistics management system for tracking shipments, managing users, and handling delivery operations.
+[![Production Website](https://img.shields.io/badge/Production_Website-Live-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://worldwiderapidexpress.com)
+[![PHP](https://img.shields.io/badge/PHP-8.x_Backend-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org)
+[![MySQL](https://img.shields.io/badge/MySQL-Logistics_Ledger-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-## Features
+---
 
-- **Shipment Tracking**: Real-time tracking of shipments with status updates
-- **User Management**: Admin panel for managing users and their profiles
-- **Shipment Management**: Create, manage, and cancel shipments
-- **Multi-carrier Support**: Integration with DHL, DPD, SkyNET, FedEx, and UPS
-- **Responsive Design**: Mobile-friendly interface for all devices
-- **Admin Dashboard**: Comprehensive admin panel for system management
+## 🏛️ Engineering Provenance & Live Production Release
 
-## Project Structure
+> ### 🌐 Verified Commercial Web Platform
+> - **Production Domain:** [worldwiderapidexpress.com](https://worldwiderapidexpress.com)
+> - **Principal Mobile & Web Architect:** **Muhammad Ali**
+> - **Organization / Agency:** CreatorCode / Slicon Systems
 
-```
-├── admin/                    # Admin panel
-│   ├── auth/                # Admin authentication
-│   └── user-management/     # User management interface
-├── api/                     # API endpoints
-├── assets/                  # Static assets
-│   ├── css/                # Stylesheets
-│   ├── images/             # Images and logos
-│   └── js/                 # JavaScript files
-├── config/                 # Configuration files
-├── pages/                  # Public pages
-│   ├── about/              # About us page
-│   ├── contact/            # Contact page
-│   └── services/           # Services page
-├── shipments/              # Shipment management
-├── uploads/                # User uploads directory
-├── database.sql            # Database schema
-└── index.html              # Home page
-```
+---
 
-## Prerequisites
+## 🌟 Executive Overview & Operational Capabilities
 
-- PHP 7.4 or higher
-- MySQL 5.7 or higher
-- Web server (Apache, Nginx, etc.)
-- Modern web browser
+**Worldwide Rapid Express** is an enterprise global courier, air cargo, and freight tracking web portal. Designed for cross-border logistics and freight forwarding operations, the platform integrates automated tracking pipelines, multi-carrier parcel auditing, and administrative dispatch operations.
 
-## Installation
+### Key Architectural Capabilities
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/courier-services-portal.git
-   cd courier-services-portal
-   ```
+1. **Universal Multi-Carrier Tracking Engine:**
+   - Real-time milestone verification tracking air-waybills (AWB) and local courier parcel codes.
+   - Grounded integrations and tracking data normalization for DHL, FedEx, UPS, SkyNET, and regional last-mile partners.
 
-2. **Set up the database**
-   - Create a MySQL database
-   - Import the `database.sql` file:
-     ```bash
-     mysql -u root -p your_database_name < database.sql
-     ```
+2. **Automated Consignment Lifecycle:**
+   - Dynamic waypoint milestones (`Order Booked`, `Customs Clearance`, `In Transit`, `Out for Delivery`, `Delivered`).
+   - Automated delivery exception logging and tamper-proof package journey verification.
 
-3. **Configure database connection**
-   - Copy `config/database.php.example` to `config/database.php`
-   - Update the database credentials:
-     ```php
-     return [
-         'host' => 'localhost',
-         'username' => 'your_username',
-         'password' => 'your_password',
-         'dbname' => 'courier_services_portal',
-         'charset' => 'utf8mb4',
-     ];
-     ```
+3. **Logistics Operations & Dispatch Desk (`admin/`):**
+   - Centralized manifest creation, consignment status batch updates, and customs documentation uploads.
+   - Comprehensive user and client account management with billing vouchers.
 
-4. **Set up the web server**
-   - Point your web server to the project root directory
-   - Ensure the `uploads/` directory has write permissions
+---
 
-5. **Access the application**
-   - Open your browser and navigate to `http://localhost` (or your configured domain)
-   - Admin login: Use the credentials from the database setup
+## 🛠️ Complete Technology Stack
 
-## Default Admin Credentials
+| Domain | Technology | Implementation Detail |
+|---|---|---|
+| **Web Client** | HTML5, Modern Vanilla CSS, ES6 JS | Fully responsive, high-speed lightweight client interface |
+| **Backend API** | PHP 8.x / REST API | Modular API routing (`api/`) with JSON payload responses |
+| **Relational Database**| MySQL / MariaDB | Normalized shipment indices, audit logs, and customer profiles |
+| **Security & Auth** | Cryptographic Session Hashing | Role-based admin access control and CSRF protection |
 
-After database setup, use these credentials to log in:
-- **Username**: `Rehman-Ali-Khan`
-- **Password**: `Admin@123`
+---
 
-⚠️ **Important**: Change these credentials immediately after first login.
+## 🏛️ Engineering Provenance
 
-## Usage
-
-### For Customers
-- Visit the home page to track shipments
-- Enter your tracking number to view shipment status
-- Contact support via WhatsApp for assistance
-
-### For Admins
-- Access the admin panel at `/admin/auth/admin-login.html`
-- Manage users and shipments
-- View booking statistics and reports
-
-## API Endpoints
-
-- `POST /api/track-shipment.php` - Track shipment by ID
-
-## Security Considerations
-
-- Never commit `config/database.php` with real credentials
-- Use environment variables for sensitive data
-- Implement HTTPS in production
-- Regularly update dependencies
-- Use prepared statements to prevent SQL injection
-- Validate and sanitize all user inputs
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For support, contact us at:
-- **Email**: info@worldwiderapidexpress.com
-- **Phone**: +92 313 0558314
-- **WhatsApp**: [Chat with us](https://wa.me/923130558314)
-
-## Disclaimer
-
-This is a sample project for educational purposes. Ensure all sensitive information is properly secured before deploying to production.
+Architected, engineered, and maintained by **Muhammad Ali** as Principal Mobile Architect.
