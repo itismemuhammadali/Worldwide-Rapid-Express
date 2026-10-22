@@ -17,7 +17,7 @@
 > ### 🌐 Verified Commercial Web Platform
 > - **Production Domain:** [worldwiderapidexpress.com](https://worldwiderapidexpress.com)
 > - **Principal Mobile & Web Architect:** **Muhammad Ali**
-> - **Organization / Agency:** CreatorCode / Slicon Systems
+> - **Organization / Agency:** Crater Code / Slicon Systems
 
 ---
 
